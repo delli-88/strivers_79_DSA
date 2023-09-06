@@ -29,6 +29,7 @@ class Solution:
 print(Solution().nextPermutation(nums = [1,2,3]))
 
 '''
+Problem : https://leetcode.com/problems/next-permutation/
 TC - O(n)
 SC - O(1)
 
