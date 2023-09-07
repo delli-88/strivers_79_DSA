@@ -64,4 +64,7 @@ Approach :
 
 7. Return the `majority` list containing the majority elements.
 
+Intuition:
+like in majority element 1, we cancel out each element with other element and which remains its majority, it means we are making pairs of numbers without duplicates, and assuming the remaining elements to be the majority candidates, likewise,
+in majority element 2, instead of making pairs, we make triplets of distinct elements, and the remaining elements which sould be 1 or 2(as they cannot form triplets) are potential candidates for majority elements
 '''
